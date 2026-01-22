@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Gupta Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="floating-shapes">
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+
+    <header>
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">HG</div>
+          <div class="logo-text">
+            <h1 class="logo-name">Harsh Gupta</h1>
+            <p class="logo-subtitle"></p>
+          </div>
+        </a>
+        <nav>
+          <a href="index.html" class="active">Home</a>
+          <a href="project.html">My Projects</a>
+          <a href="Education.htm">My Education</a>
+          <a href="contact.html">Let's Connect</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-particles">
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+        </div>
+        <div class="hero-content">
+          <p class="hero-greeting animate-slide-up" style="font-size: 32px">Hello, I'm</p>
+          <h1 class="animate-fade-in">Harsh Gupta</h1>
+          <h2 class="typing-animation animate-slide-left">Data Science Enthusiast</h2>
+          <p class="hero-description animate-slide-up-delay">
+            Passionate about transforming complex data into actionable insights
+            and driving data-driven decision making
+          </p>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="profile">
+        <img
+          src="Harsh profile pic.jpeg"
+          height="350px"
+          alt="Harsh Gupta - Data Science Enthusiast"
+        />
+      </section>
+
+      <section class="about-me">
+        <h3>About Me</h3>
+        <div class="about-content">
+          <div class="about-card">
+            <div class="about-icon">🚀</div>
+            <div class="about-text">
+              <h4>Intro</h4>
+              <p>
+                Hi! I'm Harsh Gupta, a second-year BTech student passionate
+                about data science. I enjoy building machine learning models and
+                analyzing real-world data using Python and ML libraries. My
+                portfolio showcases projects in predictive modeling, data
+                visualization, and data analysis. I'm actively looking for
+                internships and data challenges to grow further.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">🎯</div>
+            <div class="about-text">
+              <h4>Career Goals & Aspirations</h4>
+              <p>
+                I am a second-year BTech student aspiring to build a career in
+                data science. In the short term, I'm focused on strengthening my
+                technical skills in Python and machine learning, completing
+                impactful projects, and gaining hands-on experience through
+                internships, competitions, and real-world datasets. In the long
+                term, I aim to specialize in advanced analytics (such as NLP and
+                deep learning) and contribute to data-driven solutions that
+                solve real business problems..
+              </p>
+            </div>
+          </div>
+
+          
+      </section>
+
+      <section class="skills" id="skills">
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-item" data-skill="Python">
+            <div class="skill-icon">
+              <img src="pyn.png" height="80px" alt="Python" />
+            </div>
+            <span>Python</span>
+          </div>
+          <div class="skill-item" data-skill="Data Analysis">
+            <div class="skill-icon">
+              <img src="java.png" height="80px" alt="Java" />
+            </div>
+            <span>Java</span>
+          </div>
+          <div class="skill-item" data-skill="Machine Learning">
+            <div class="skill-icon">🤖</div>
+            <span>Machine Learning</span>
+          </div>
+
+          <div class="skill-item" data-skill="SQL">
+            <div class="skill-icon">
+              <img src="sql1.png" height="80px" alt="My Sql" />
+            </div>
+            <span>MySQL</span>
+          </div>
+          <div class="skill-item" data-skill="Django">
+            <div class="skill-icon">
+              <img src="dj.png" height="80px" alt="Django" />
+            </div>
+            <span>Django</span>
+          </div>
+          <div class="skill-item" data-skill="Visualization">
+            <div class="skill-icon">
+              <img src="flask1.png" height="80px" alt="Django" />
+            </div>
+            <span>Flask</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section">
+        <button onclick="openResumeModal()" class="resume-btn">
+          <span class="resume-icon">📄</span>
+          Download Resume
+        </button>
+      </section>
+
+      <!-- Resume Modal -->
+      <div id="resumeModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeResumeModal()">&times;</span>
+          <h3>📄 My Resume</h3>
+          <p>Choose how you'd like to access my resume:</p>
+          <div class="modal-buttons">
+            <a
+              href="HarshResume.pdf"
+              download="Harsh_Gupta_Resume.pdf"
+              class="modal-btn download-btn"
+            >
+              <span></span> Download PDF
+            </a>
+            <a
+              href="HarshResume.pdf"
+              target="_blank"
+              class="modal-btn view-btn"
+            >
+              <span></span> View Online
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-divider"></div>
+      <section class="footer-feedback">
+        <h4>Share Your Feedback</h4>
+        <p>Help me improve my portfolio - your thoughts matter!</p>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=guptaharshk123@gmail.com&su=Portfolio Feedback&body=Hi Harsh,%0D%0A%0D%0AHere's my feedback on your portfolio:%0D%0A%0D%0A"
+          target="_blank"
+          class="feedback-btn"
+        >
+          💬 Send Feedback
+        </a>
+      </section>
+
+      <div class="footer-copyright">
+        <h3>All the copyright were taken by <i>guptaharshk123@gmail.com</i></h3>
+        <p>&copy; 2026 Your Harsh. Made with &#10084;.</p>
+      </div>
+    </footer>
+
+    <script>
+      function openResumeModal() {
+        document.getElementById("resumeModal").style.display = "block";
+      }
+
+      function closeResumeModal() {
+        document.getElementById("resumeModal").style.display = "none";
+      }
+
+      // Close modal when clicking outside of it
+      window.onclick = function (event) {
+        const modal = document.getElementById("resumeModal");
+        if (event.target === modal) {
+          closeResumeModal();
+        }
+      };
+
+      // Close modal with Escape key
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          closeResumeModal();
+        }
+      });
+    </script>
+  </body>
+</html>
